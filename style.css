@@ -1,0 +1,21 @@
+#cardsection {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+}
+.card {
+  border: 2px solid green;
+  max-height: 30%vh;
+  height: 30%;
+  width: 30%vw;
+  display: flex;
+  flex-direction: column;
+}
+.imgbox {
+  overflow: hidden;
+  height: 40%;
+}
+img {
+  width: 100%;
+  overflow: hidden;
+}
